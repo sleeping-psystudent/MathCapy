@@ -1,0 +1,29 @@
+<!-- options.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>MathCapy+ Settings</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    label { display: block; margin-top: 10px; }
+    input { width: 100%; padding: 5px; margin-top: 5px; }
+    button { margin-top: 15px; padding: 8px 12px; }
+    .status { margin-top: 10px; color: green; }
+  </style>
+</head>
+<body>
+  <h2>🔐 MathCapy+ API Settings</h2>
+
+  <label for="app_id">Mathpix App ID:</label>
+  <input type="text" id="app_id" placeholder="Enter your App ID">
+
+  <label for="app_key">Mathpix App Key:</label>
+  <input type="text" id="app_key" placeholder="Enter your App Key">
+
+  <button id="save">Save Settings</button>
+  <div class="status" id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>

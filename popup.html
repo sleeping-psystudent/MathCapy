@@ -1,0 +1,49 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>MathCapy+</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 15px;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      margin-top: 10px;
+      font-family: monospace;
+      resize: none;
+    }
+    button {
+      margin-top: 10px;
+      padding: 6px 12px;
+    }
+    .tip {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>📋 MathCapy+</h2>
+
+  <div class="tip">
+    1. 用滑鼠框選畫面<br>
+    2. 按 <b>Ctrl+C</b> 開始辨識<br>
+    3. <b>Ctrl+V</b> 貼上 LaTeX
+  </div>
+
+  <label for="output">Latest LaTeX Result:</label>
+  <textarea id="output" readonly></textarea>
+  <button id="copy">📎 Copy to Clipboard</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
