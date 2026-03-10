@@ -20,7 +20,7 @@ The extension is designed to integrate smoothly with academic workflows, enablin
 
 * 🔎 **Mathematical OCR Recognition**
 
-  * Recognizes mathematical expressions using OCR tools (e.g., Mathpix / Tesseract / AI-based recognition).
+  * Recognizes mathematical expressions using OCR tools (e.g., Mathpix).
 
 * ✏️ **Automatic LaTeX Conversion**
 
@@ -118,7 +118,7 @@ Clipboard Output
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourname/mathcapy-plus.git
+git clone https://github.com/yourname/mathcapy.git
 ```
 
 2. Open Chrome Extensions
@@ -162,7 +162,7 @@ The recognized LaTeX will be pasted into the current input field.
 ## Project Structure (Example)
 
 ```
-mathcapy-plus/
+mathcapy/
 │
 ├── manifest.json
 ├── background.js
@@ -170,8 +170,8 @@ mathcapy-plus/
 ├── capture.js
 ├── latex_converter.js
 │
-├── assets/
-│   └── capybara_icon.png
+├── icons/
+│   └── icon128.png
 │
 └── README.md
 ```
@@ -182,7 +182,7 @@ mathcapy-plus/
 
 * **Chrome Extension API**
 * `chrome.tabs.captureVisibleTab()`
-* OCR (Mathpix / Tesseract / AI models)
+* OCR (Mathpix)
 * JavaScript
 * LaTeX parsing
 
